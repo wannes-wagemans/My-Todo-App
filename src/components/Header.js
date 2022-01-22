@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navbar, NavbarBrand } from 'react-bootstrap';
-import pau from './pau.svg'
+import pau from './../img/pau.svg'
 
 function Header() {
   return (

@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from 'react-redux'
-import { addToList } from "./actions";
+import { addToList } from "../actions";
 import TodoItem from "./TodoItem";
 import Button from 'react-bootstrap/Button';
-import { Form, FormControl, FormGroup, FormLabel, FormText } from "react-bootstrap";
-import { Alert } from "bootstrap";
+import { Form, FormControl, FormGroup, FormText } from "react-bootstrap";
 
 function Todo() {
 
